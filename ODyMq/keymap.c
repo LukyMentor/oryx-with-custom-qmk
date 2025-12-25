@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [1] = LAYOUT_moonlander(
     KC_TRANSPARENT, CZ_1,           CZ_2,           CZ_3,           CZ_4,           CZ_5,           KC_TRANSPARENT,                                 KC_TRANSPARENT, CZ_6,           CZ_7,           CZ_8,           CZ_9,           CZ_0,           KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_LEFT_CTRL,   KC_PAGE_UP,     LCTL(KC_F8),    KC_PGDN,        KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_QUES,        CZ_TILD,        CZ_EXLM,        KC_TRANSPARENT, KC_TRANSPARENT, 
+    KC_TRANSPARENT, U_0160,   KC_PAGE_UP,     LCTL(KC_F8),    KC_PGDN,        KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_QUES,        CZ_TILD,        CZ_EXLM,        KC_TRANSPARENT, KC_TRANSPARENT, 
     KC_TRANSPARENT, KC_TRANSPARENT, LGUI(LSFT(KC_UP)),LALT(LGUI(KC_DOWN)),LGUI(LSFT(KC_RIGHT)),KC_TRANSPARENT, KC_TRANSPARENT,                                                                 KC_TRANSPARENT, CZ_DQUO,        CZ_PLUS,        CZ_SCLN,        CZ_MINS,        CZ_QUOT,        KC_TRANSPARENT, 
     KC_TRANSPARENT, LGUI(LCTL(KC_LEFT)),LGUI(KC_LEFT),  LGUI(KC_W),     LGUI(KC_RIGHT), LGUI(LCTL(KC_RIGHT)),                                KC_TRANSPARENT, KC_HOME,        KC_TRANSPARENT, KC_END,         KC_TRANSPARENT, KC_TRANSPARENT, 
     KC_TRANSPARENT, KC_TRANSPARENT, LGUI(LSFT(KC_LEFT)),LALT(LGUI(KC_DOWN)),LGUI(LSFT(KC_DOWN)),KC_TRANSPARENT,                                                                                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
